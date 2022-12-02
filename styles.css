@@ -38,12 +38,13 @@ a:hover {
     font-weight: 900;
     font-size: 52px;
 }
-.image-container img {
-    width: 500px;
+.animated-gif{
+    width: 700px;
     height: auto;
 }
-.header img {
-    height: 50px;
+.header img,
+.quote-area img {
+    height: 360px;
     width:auto;
 }
 .top-links {
@@ -153,12 +154,17 @@ h2 {
     background-color:#1f2937;
     color:antiquewhite;
     width: auto;
-    height: fit-content;
+    height: 500px;
     margin: 0;
     padding: 32px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
+}
+.quote {
+    font-style: italic;
+    flex:0;
 }
 .call {
     background-color:antiquewhite;
