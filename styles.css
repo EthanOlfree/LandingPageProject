@@ -6,19 +6,20 @@ body {
 
     
 }
-
 ul {
     text-decoration: none;
     list-style: none;
     color: antiquewhite;
 }
-
-
 a {
     text-decoration: none;
     color: antiquewhite;
-} 
+    font-size: 24px;
 
+} 
+a:hover {
+    color: #921919;
+} 
 .header {
     background-color: #1f2937;
     color: white;
@@ -28,17 +29,12 @@ a {
     padding: 32px;
     display: flex;
 }
-
 .top-links {
     flex: 1;
     display: flex;
     gap: 2rem;
     justify-content:flex-end
 }
-a:hover {
-    color: #921919;
-} 
-
 
 .header-content {
     background-color: #1f2937;
@@ -55,7 +51,7 @@ a:hover {
     display: flex;
     flex: 1;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     flex-wrap: wrap;
     width: 150px;
     height: auto;
@@ -63,7 +59,14 @@ a:hover {
     padding: 16px;
     margin: 16px;
 }
-.header-button{
+p{
+    font-size:x-large;
+}
+.bold {
+    font-weight: bolder;
+    font-style: italic;
+}
+.image-container{
     display: flex;
     flex: 1;
     width: auto;
@@ -75,8 +78,13 @@ a:hover {
 button {
     text-align: center;
     padding: 8px;
-    width: 200px;
-    height: 200px;
-    font-weight: 600;
+    width: auto;
+    height: 100px;
+    font-weight: 400;
     font-size: x-large;
+    align-items: flex-start;
+}
+button:hover{
+    background-color: #921919;
+    color: antiquewhite;
 }
