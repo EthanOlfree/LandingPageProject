@@ -1,6 +1,9 @@
 
 body {
-    margin: 0
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
     
 }
 
@@ -20,7 +23,7 @@ a {
     background-color: #1f2937;
     color: white;
     width: auto;
-    height: 40%vh;
+    height: auto;
     margin: 0;
     padding: 32px;
     display: flex;
@@ -31,4 +34,49 @@ a {
     display: flex;
     gap: 2rem;
     justify-content:flex-end
+}
+a:hover {
+    color: #921919;
+} 
+
+
+.header-content {
+    background-color: #1f2937;
+    color: white;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.header-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: auto;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px;
+}
+.header-button{
+    display: flex;
+    flex: 1;
+    width: auto;
+    height: auto;
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+    height: 200px;
+    font-weight: 600;
+    font-size: x-large;
 }
