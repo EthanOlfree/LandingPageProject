@@ -1,0 +1,34 @@
+
+body {
+    margin: 0
+    
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: antiquewhite;
+}
+
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+} 
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    width: auto;
+    height: 40%vh;
+    margin: 0;
+    padding: 32px;
+    display: flex;
+}
+
+.top-links {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    justify-content:flex-end
+}
