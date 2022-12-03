@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     
 }
@@ -176,4 +177,9 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
+}
+.footer {
+    align-items: center;
+    justify-content: center;
 }
